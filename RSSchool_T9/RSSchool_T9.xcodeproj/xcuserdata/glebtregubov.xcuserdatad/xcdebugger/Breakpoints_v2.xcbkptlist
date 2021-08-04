@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4E969DD6-EC04-46CD-84D4-77213B08C381"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16277A82-A711-49D2-8777-EF89D59CDFB1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T9/Screens/Items/ItemsCollectionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "65D46FD3-E0F9-4847-83FD-7D4D0B2FF1F8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T9/Screens/Items/Content/SuperContentViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "configureSubviews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "987A5700-5558-4D23-BF65-97315CEE832C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T9/Screens/Items/Content/SuperContentViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "dismissButton"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "987A5700-5558-4D23-BF65-97315CEE832C - 871e322ada58a11f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.UIButton in variable initialization expression of RSSchool_T9.SuperContentViewController.dismissButton : __C.UIButton"
+                  moduleName = "RSSchool_T9"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebtregubov/Desktop/rs.ios.stage-task9-main/RSSchool_T9/RSSchool_T9/Screens/Items/Content/SuperContentViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "25">
+               </Location>
+               <Location
+                  uuid = "987A5700-5558-4D23-BF65-97315CEE832C - b8614fe55bd59fbd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RSSchool_T9.SuperContentViewController.dismissButton.getter : __C.UIButton"
+                  moduleName = "RSSchool_T9"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebtregubov/Desktop/rs.ios.stage-task9-main/RSSchool_T9/RSSchool_T9/Screens/Items/Content/SuperContentViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "987A5700-5558-4D23-BF65-97315CEE832C - 444f05cfaa66c5a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RSSchool_T9.SuperContentViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; RSSchool_T9.SuperContentViewController"
+                  moduleName = "RSSchool_T9"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebtregubov/Desktop/rs.ios.stage-task9-main/RSSchool_T9/RSSchool_T9/Screens/Items/Content/SuperContentViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "392">
+               </Location>
+               <Location
+                  uuid = "987A5700-5558-4D23-BF65-97315CEE832C - eb772f244970320d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RSSchool_T9.SuperContentViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;RSSchool_T9.SuperContentViewController&gt;"
+                  moduleName = "RSSchool_T9"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebtregubov/Desktop/rs.ios.stage-task9-main/RSSchool_T9/RSSchool_T9/Screens/Items/Content/SuperContentViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "336">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "82B04A86-F8DB-462E-AA32-76B2660A083F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T9/Screens/Items/Content/SuperContentViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "dismissController()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
