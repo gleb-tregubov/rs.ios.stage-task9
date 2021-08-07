@@ -88,10 +88,10 @@ class SuperContentViewController: UIViewController {
     private func configureScrollView() {
         view.addSubview(scrollView)
         NSLayoutConstraint.activate([
-            scrollView.topAnchor.constraint(equalTo: view.topAnchor),
-            scrollView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
-            scrollView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            scrollView.trailingAnchor.constraint(equalTo: view.trailingAnchor)
+            scrollView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
+            scrollView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
+            scrollView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor),
+            scrollView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor)
         ])
         
         scrollView.addSubview(contentView)
@@ -99,7 +99,10 @@ class SuperContentViewController: UIViewController {
             contentView.topAnchor.constraint(equalTo: scrollView.topAnchor),
             contentView.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor),
             contentView.leadingAnchor.constraint(equalTo: scrollView.leadingAnchor),
-            contentView.trailingAnchor.constraint(equalTo: scrollView.trailingAnchor)
+            contentView.trailingAnchor.constraint(equalTo: scrollView.trailingAnchor),
+//            contentView.widthAnchor.constraint(equalTo: scrollView.widthAnchor), // !Attention!
+            contentView.centerYAnchor.constraint(equalTo: scrollView.centerYAnchor),
+            contentView.centerXAnchor.constraint(equalTo: scrollView.centerXAnchor),
         ])
     }
     
@@ -113,7 +116,7 @@ class SuperContentViewController: UIViewController {
         imageView.addSubview(titleLabel)
         
         NSLayoutConstraint.activate([
-            contentView.widthAnchor.constraint(equalTo: scrollView.widthAnchor),
+//            contentView.widthAnchor.constraint(equalTo: scrollView.widthAnchor),
             
             dismissButton.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 30.0),
             dismissButton.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -25.0),
